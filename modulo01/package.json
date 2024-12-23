@@ -3,7 +3,14 @@
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
+  "scripts": {
+    "dev" : "nodemon index.js"
+  },
   "dependencies": {
-    "express": "^4.21.2"
+    "express": "^4.21.2",
+    "nodemin": "^1.0.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9"
   }
 }
